@@ -1,0 +1,14 @@
+video_root: 'datasets/msrvtt'
+ann_root: 'annotation'
+filename: 'msrvtt_test.jsonl'
+video_fmt: '.mp4'
+
+# set pretrained as a file path or an url
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth'
+
+# size of vit model; base or large
+vit: 'base'
+batch_size: 16
+k_test: 128
+image_size: 384
+num_frm_test: 8
