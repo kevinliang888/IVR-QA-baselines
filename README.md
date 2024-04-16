@@ -6,7 +6,7 @@
 
 Official code for the ICCV'23 paper ["Simple Baselines for Interactive Video Retrieval with Questions and Answers"](https://arxiv.org/abs/2308.10402).
 
-Authors: [Kaiqu Liang](), and [Samuel Albanie](http://samuelalbanie.com/).
+Authors: [Kaiqu Liang](https://kaiquliang.github.io/), and [Samuel Albanie](http://samuelalbanie.com/).
 
 ## Introduction
 To date, the majority of video retrieval systems have been optimized for a "single-shot" scenario in which the user submits a query in isolation, ignoring previous interactions with the system. Recently, there has been renewed interest in interactive systems to enhance retrieval, but existing approaches are complex and deliver limited gains in performance. In this work, we revisit this topic and propose several simple yet effective baselines for interactive video retrieval via question-answering. We employ a VideoQA model to simulate user interactions and show that this enables the productive study of the interactive retrieval task without access to ground truth dialogue data. Experiments on MSR-VTT, MSVD, and AVSD show that our framework using question-based interaction significantly improves the performance of text-based video retrieval systems.
